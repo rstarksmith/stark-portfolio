@@ -30,14 +30,14 @@ const Landing = ({setSelectedPage}) => {
                      />
                 )}
             </div>
-             {/* MAIN TEXT */}
+             {/* MAIN SECTION */}
       <div className="z-30 basis-2/5 mt-12 md:mt-32">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.75 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
@@ -54,7 +54,7 @@ const Landing = ({setSelectedPage}) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
+            Full Stack Software Engineer | Designer 
             viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
           </p>
         </motion.div>
@@ -66,6 +66,7 @@ const Landing = ({setSelectedPage}) => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           transition={{ delay: 0.2, duration: 0.5 }}
+        //   add delay to make it happen slightly after first one
           variants={{
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
@@ -81,6 +82,7 @@ const Landing = ({setSelectedPage}) => {
           </AnchorLink>
           <AnchorLink
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+            // border radius only on the right
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
@@ -89,13 +91,13 @@ const Landing = ({setSelectedPage}) => {
             </div>
           </AnchorLink>
         </motion.div>
-
         <motion.div
           className="flex mt-5 justify-center md:justify-start"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           transition={{ delay: 0.4, duration: 0.5 }}
+        //   delay slightly later than previous
           variants={{
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },

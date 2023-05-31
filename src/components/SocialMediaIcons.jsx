@@ -15,7 +15,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="dev-link" src="../assets/twitter.png" />
+        <img alt="dev-link" src="../assets/dev.png" />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
@@ -23,16 +23,16 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="github-link" src="../assets/facebook.png" />
+        <img alt="github-link" src="../assets/github.png" />
       </a>
-      <a
+      {/* <a
         className="hover:opacity-50 transition duration-500"
         href="https://www.instagram.com"
         target="_blank"
         rel="noreferrer"
       >
         <img alt="instagram-link" src="../assets/instagram.png" />
-      </a>
+      </a> */}
     </div>
   );
 };
