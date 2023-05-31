@@ -24,7 +24,7 @@ const MySkills = () => {
             <p className="font-playfair font-semibold text-4xl mb-5">
                 MY <span className="text-red">SKILLS</span>
             </p>
-            <LineGradient width="w-1/3" />
+            <LineGradient width="w-1/2" />
             <p className="mt-10 mb-7">
                 Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
                 fames odio in at.
@@ -66,10 +66,10 @@ const MySkills = () => {
             >
             <div className="relative h-32">
                 <div className="z-10">
-                <p className="font-playfair font-semibold text-5xl">01</p>
-                <p className="font-playfair font-semibold text-3xl mt-3">
-                    Experience
-                </p>
+                    <img src="../assets/react.png" alt="contact" />
+                    <p className="font-playfair font-semibold text-3xl mt-3">
+                        React JS
+                    </p>
                 </div>
                 <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
             </div>
@@ -94,9 +94,9 @@ const MySkills = () => {
             >
             <div className="relative h-32">
                 <div className="z-10">
-                <p className="font-playfair font-semibold text-5xl">02</p>
+                <img src="../assets/rails.png" alt="ruby on rails logo" />
                 <p className="font-playfair font-semibold text-3xl mt-3">
-                    Innovative
+                    Ruby on Rails
                 </p>
                 </div>
                 <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
@@ -123,9 +123,9 @@ const MySkills = () => {
             >
             <div className="relative h-32">
                 <div className="z-10">
-                <p className="font-playfair font-semibold text-5xl">03</p>
+                <img src="../assets/js.png" alt="javascript logo" />
                 <p className="font-playfair font-semibold text-3xl mt-3">
-                    Imaginative
+                    JavaScript
                 </p>
                 </div>
                 <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
