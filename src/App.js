@@ -2,6 +2,10 @@ import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
 import MySkills from "./scenes/MySkills";
+import Projects from "./scenes/Projects";
+import Testimonials from "./scenes/Testimonials";
+import Contact from "./scenes/Contact";
+import Footer from "./scenes/Footer";
 import LineGradient from "./components/LineGradient";
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
@@ -41,6 +45,32 @@ function App() {
       <div className="w-5/6 mx-auto md:h-full">
         <MySkills />
       </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto">
+        {/* project section takes up more than than 100% so we dont want the height to be full */}
+        <Projects />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("testimonials")}
+        >
+          <Testimonials />
+        </motion.div>
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("contact")}
+        >
+          <Contact />
+        </motion.div>
+      </div>
+      <Footer />
     </div>
   );
 }
