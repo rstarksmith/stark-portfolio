@@ -36,7 +36,7 @@ const Project = ({ title, loom }) => {
           porttitor accumsan tincidunt.
         </p> */}
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -89,10 +89,10 @@ const Projects = () => {
                     BEAUTIFUL USER INTERFACES
                 </div>
                 <Project title="Project 1" loom="https://www.loom.com/share/359844ed0e104648abd3df9c4db3e82c"/>
-                <Project title="Project 2" />
+                <Project title="Project 2" loom="https://www.loom.com/share/f01bfddac5c4405e8f8f6bc9531e8b90"/>
 
                 {/* ROW 2 */}
-                <Project title="Project 3" />
+                <Project title="Project 3" loom="https://www.loom.com/share/98f70fbb05ef44f89b2d49177580c00a" />
                 <Project title="Project 4" />
                 <Project title="Project 5" />
 

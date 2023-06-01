@@ -54,8 +54,8 @@ const Landing = ({setSelectedPage}) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Full Stack Software Engineer | Designer 
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+            Software Engineer | Designer 
+           
           </p>
         </motion.div>
 
