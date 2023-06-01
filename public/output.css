@@ -744,6 +744,18 @@ video {
   margin-top: 0.25rem;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.ml-5{
+  margin-left: 1.25rem;
+}
+
+.ml-10{
+  margin-left: 2.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -860,8 +872,17 @@ video {
   resize: both;
 }
 
+.break-after-auto{
+  -webkit-column-break-after: auto;
+          break-after: auto;
+}
+
 .flex-col{
   flex-direction: column;
+}
+
+.place-content-center{
+  place-content: center;
 }
 
 .items-center{
@@ -902,6 +923,18 @@ video {
 
 .gap-8{
   gap: 2rem;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-full{
@@ -1130,6 +1163,10 @@ video {
   text-decoration-line: underline;
 }
 
+.no-underline{
+  text-decoration-line: none;
+}
+
 .placeholder-opaque-black::-webkit-input-placeholder{
   color: rgba(0,0,0,0.35);
 }
@@ -1320,6 +1357,15 @@ body,
 .hover\:text-yellow:hover{
   --tw-text-opacity: 1;
   color: rgb(253 204 73 / var(--tw-text-opacity));
+}
+
+.hover\:text-pink:hover{
+  --tw-text-opacity: 1;
+  color: rgb(206 19 125 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover{
+  text-decoration-line: underline;
 }
 
 .hover\:opacity-50:hover{

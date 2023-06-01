@@ -19,7 +19,7 @@ const projectVariant = {
 //   final condition for each child
 };
 
-const Project = ({ title, loom }) => {
+const Project = ({ title, subtitle }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -30,16 +30,14 @@ const Project = ({ title, loom }) => {
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
-        <a href={loom} target="_blank" rel="noopener noreferrer" className="underline">Demo</a>
-        {/*  move this to each project and call, subtitle <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
-        </p> */}
+        <div>{subtitle}</div>
       </div>
       <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
     </motion.div>
   );
 };
+
+const linkCss = "hover:underline hover:text-pink flex justify-center"
 
 
 const Projects = () => {
@@ -88,17 +86,71 @@ const Projects = () => {
                 >
                     BEAUTIFUL USER INTERFACES
                 </div>
-                <Project title="Project 1" loom="https://www.loom.com/share/359844ed0e104648abd3df9c4db3e82c"/>
-                <Project title="Project 2" loom="https://www.loom.com/share/f01bfddac5c4405e8f8f6bc9531e8b90"/>
+                <Project 
+                  title="nosh up" 
+                  subtitle={
+                  <>
+                    <a href="https://www.loom.com/share/359844ed0e104648abd3df9c4db3e82c" target="_blank" rel="noopener noreferrer" className={linkCss}>Demo</a>
+                    <a href="https://github.com/rstarksmith/nosh" target="_blank" rel="noopener noreferrer" className={linkCss}>Github</a>
+                    <a href="https://nosh.onrender.com/" target="_blank" rel="noopener noreferrer" className={linkCss}>Live</a>
+                  </>
+                }
+                />
+                <Project 
+                  title="Fox Vinyl" 
+                  subtitle={
+                    <>
+                      <a href="https://www.loom.com/share/f01bfddac5c4405e8f8f6bc9531e8b90" target="_blank" rel="noopener noreferrer" className={linkCss}>Demo</a>
+                      <a href="https://github.com/rstarksmith/phase-3-project-frontend" target="_blank" rel="noopener noreferrer" className={linkCss}>Github</a>
+                    </>
+                  }
+                />
 
                 {/* ROW 2 */}
-                <Project title="Project 4" loom="https://www.loom.com/share/7311ec122e31481b965ae49b88b7a454"/>
-                <Project title="Project 3" loom="https://www.loom.com/share/98f70fbb05ef44f89b2d49177580c00a" />
-                <Project title="Project 5" />
+                <Project 
+                  title="Lego List" 
+                  subtitle={
+                    <>
+                      <a href="https://www.loom.com/share/7311ec122e31481b965ae49b88b7a454" target="_blank" rel="noopener noreferrer" className={linkCss}>Demo</a>
+                      <a href="https://github.com/rstarksmith/phase-2-project-legolist" target="_blank" rel="noopener noreferrer" className={linkCss}>Github</a>
+                    </>
+                  }
+                />
+                <Project 
+                  title="Shelfie Share" 
+                  subtitle={
+                    <>
+                      <a href="https://www.loom.com/share/98f70fbb05ef44f89b2d49177580c00a" target="_blank" rel="noopener noreferrer" className={linkCss}>Demo</a>
+                      <a href="https://github.com/rstarksmith/phase-4-project-shelfie-review" target="_blank" rel="noopener noreferrer" className={linkCss}>Github</a>
+                    </>
+                  }
+                />
+                <Project 
+                  title="Ruby Arrays"
+                  subtitle={
+                    <>
+                       <a href="https://dev.to/rstarksmith/seeking-ruby-array-methods-2dee" target="_blank" rel="noopener noreferrer" className={linkCss}>Blog Post</a>
+                    </>
+                  }
+                />
 
                 {/* ROW 3 */}
-                <Project title="Project 6" />
-                <Project title="Project 7" loom="" subtitle="https://dev.to/rstarksmith/beginner-react-mistakes-a46" />
+                <Project 
+                  title="Introducing Validations" 
+                  subtitle={
+                    <>
+                      <a href="https://dev.to/rstarksmith/introducing-validations-2aok" target="_blank" rel="noopener noreferrer" className={linkCss}>Blog Post</a>
+                    </>
+                  }
+                />
+                <Project 
+                  title="React Gotchas" 
+                  subtitle={
+                    <>
+                       <a href="https://dev.to/rstarksmith/beginner-react-mistakes-a46" target="_blank" rel="noopener noreferrer" className={linkCss}>Blog Post</a>
+                    </>
+                  }
+                />
                 <div
                     className="flex justify-center text-center items-center p-10 bg-blue
                     max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
