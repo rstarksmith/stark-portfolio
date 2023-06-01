@@ -51,7 +51,7 @@ const MySkills = () => {
         </div>
         {/* SKILLS */}
         <div className="md:flex md:justify-between mt-16 gap-32">
-            {/* EXPERIENCE */}
+            {/* Graphic */}
             <motion.div
             className="md:w-1/3 mt-10"
             initial="hidden"
@@ -66,20 +66,18 @@ const MySkills = () => {
             >
             <div className="relative h-32">
                 <div className="z-10">
-                    <img src="../assets/react.png" alt="contact" />
+                    {/* <img src="../assets/react.png" alt="contact" /> */}
+                    <p>3 years</p>
                     <p className="font-playfair font-semibold text-3xl mt-3">
-                        React JS
+                        Visual & Graphic Design
                     </p>
                 </div>
                 <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
             </div>
-            <p className="mt-5">
-                A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-                morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-                odio sit sagittis,
-            </p>
+            <p className="mt-5">Experienced in graphic, web, and logo design with formal training in design fundamentals including color theory, balance, proportionality, and scale. Detail-oriented with a talent for elegant problem-solving. Familiar with prototyping and wireframing tools like Figma.</p>
+
             </motion.div>
-             {/* INNOVATIVE */}
+             {/* Coding */}
             <motion.div
             className="md:w-1/3 mt-10"
             initial="hidden"
@@ -94,21 +92,19 @@ const MySkills = () => {
             >
             <div className="relative h-32">
                 <div className="z-10">
-                <img src="../assets/rails.png" alt="ruby on rails logo" />
+                {/* <img src="../assets/rails.png" alt="ruby on rails logo" /> */}
+                <p>1 year</p>
                 <p className="font-playfair font-semibold text-3xl mt-3">
-                    Ruby on Rails
+                    Software Development
                 </p>
                 </div>
                 <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
             </div>
-            <p className="mt-5">
-                Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-                amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-                nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-                faucibus a
-            </p>
+            <p className="mt-5">Trained full stack engineer, with specific aptitudes for React and Ruby on Rails.
+                My GitHub profile showcases a growing collection of coding projects, emphasizing my experience with JavaScript, React and Ruby on Rails stacks.
+                </p>
             </motion.div>
-            {/* IMAGINATIVE */}
+            {/* Collaboration */}
             <motion.div
             className="md:w-1/3 mt-10"
             initial="hidden"
@@ -123,18 +119,18 @@ const MySkills = () => {
             >
             <div className="relative h-32">
                 <div className="z-10">
-                <img src="../assets/js.png" alt="javascript logo" />
+                {/* <img src="../assets/js.png" alt="javascript logo" /> */}
+                <p>3 years</p>
                 <p className="font-playfair font-semibold text-3xl mt-3">
-                    JavaScript
+                    Communication & Collaboration
                 </p>
                 </div>
                 <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
             </div>
-            <p className="mt-5">
-                Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-                curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-                Sagittis, amet netus fringilla netus lobortis odio sed platea.
-                Bibendum.
+            <p className="mt-5">Seasoned in presenting ideas, gathering feedback,
+                and ensuring all stakeholders feel heard and valued.  A highly skilled 
+                problem solver who proactively identifies and tackles challenges, providing 
+                innovative solutions while fostering collaborative efforts to overcome obstacles.
             </p>
             </motion.div>
         </div>

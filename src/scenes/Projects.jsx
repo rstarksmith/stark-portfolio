@@ -39,7 +39,6 @@ const Project = ({ title, subtitle }) => {
 
 const linkCss = "hover:underline hover:text-pink flex justify-center"
 
-
 const Projects = () => {
     return (
         <section id="projects" className="pt-48 pb-48">
@@ -91,7 +90,7 @@ const Projects = () => {
                   subtitle={
                   <>
                     <a href="https://www.loom.com/share/359844ed0e104648abd3df9c4db3e82c" target="_blank" rel="noopener noreferrer" className={linkCss}>Demo</a>
-                    <a href="https://github.com/rstarksmith/nosh" target="_blank" rel="noopener noreferrer" className={linkCss}>Github</a>
+                    <a href="https://github.com/rstarksmith/nosh" target="_blank" rel="noopener noreferrer" className={linkCss}>GitHub</a>
                     <a href="https://nosh.onrender.com/" target="_blank" rel="noopener noreferrer" className={linkCss}>Live</a>
                   </>
                 }
@@ -101,7 +100,7 @@ const Projects = () => {
                   subtitle={
                     <>
                       <a href="https://www.loom.com/share/f01bfddac5c4405e8f8f6bc9531e8b90" target="_blank" rel="noopener noreferrer" className={linkCss}>Demo</a>
-                      <a href="https://github.com/rstarksmith/phase-3-project-frontend" target="_blank" rel="noopener noreferrer" className={linkCss}>Github</a>
+                      <a href="https://github.com/rstarksmith/phase-3-project-frontend" target="_blank" rel="noopener noreferrer" className={linkCss}>GitHub</a>
                     </>
                   }
                 />
@@ -112,7 +111,7 @@ const Projects = () => {
                   subtitle={
                     <>
                       <a href="https://www.loom.com/share/7311ec122e31481b965ae49b88b7a454" target="_blank" rel="noopener noreferrer" className={linkCss}>Demo</a>
-                      <a href="https://github.com/rstarksmith/phase-2-project-legolist" target="_blank" rel="noopener noreferrer" className={linkCss}>Github</a>
+                      <a href="https://github.com/rstarksmith/phase-2-project-legolist" target="_blank" rel="noopener noreferrer" className={linkCss}>GitHub</a>
                     </>
                   }
                 />
@@ -121,7 +120,7 @@ const Projects = () => {
                   subtitle={
                     <>
                       <a href="https://www.loom.com/share/98f70fbb05ef44f89b2d49177580c00a" target="_blank" rel="noopener noreferrer" className={linkCss}>Demo</a>
-                      <a href="https://github.com/rstarksmith/phase-4-project-shelfie-review" target="_blank" rel="noopener noreferrer" className={linkCss}>Github</a>
+                      <a href="https://github.com/rstarksmith/phase-4-project-shelfie-review" target="_blank" rel="noopener noreferrer" className={linkCss}>GitHub</a>
                     </>
                   }
                 />

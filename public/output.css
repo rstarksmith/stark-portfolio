@@ -756,6 +756,10 @@ video {
   margin-left: 2.5rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
 .flex{
   display: flex;
 }
