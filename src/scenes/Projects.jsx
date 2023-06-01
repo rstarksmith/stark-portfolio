@@ -92,13 +92,13 @@ const Projects = () => {
                 <Project title="Project 2" loom="https://www.loom.com/share/f01bfddac5c4405e8f8f6bc9531e8b90"/>
 
                 {/* ROW 2 */}
+                <Project title="Project 4" loom="https://www.loom.com/share/7311ec122e31481b965ae49b88b7a454"/>
                 <Project title="Project 3" loom="https://www.loom.com/share/98f70fbb05ef44f89b2d49177580c00a" />
-                <Project title="Project 4" />
                 <Project title="Project 5" />
 
                 {/* ROW 3 */}
                 <Project title="Project 6" />
-                <Project title="Project 7" />
+                <Project title="Project 7" loom="" subtitle="https://dev.to/rstarksmith/beginner-react-mistakes-a46" />
                 <div
                     className="flex justify-center text-center items-center p-10 bg-blue
                     max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
