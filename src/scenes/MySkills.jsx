@@ -26,8 +26,8 @@ const MySkills = () => {
             </p>
             <LineGradient width="w-1/2" />
             <p className="mt-10 mb-7">
-                Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-                fames odio in at.
+                {/* Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
+                fames odio in at. */}
             </p>
             </motion.div>
             <div className="mt-16 md:mt-0">
@@ -67,7 +67,7 @@ const MySkills = () => {
             <div className="relative h-32">
                 <div className="z-10">
                     {/* <img src="../assets/react.png" alt="contact" /> */}
-                    <p>3 years</p>
+                    <p>2 years</p>
                     <p className="font-playfair font-semibold text-3xl mt-3">
                         Visual & Graphic Design
                     </p>
@@ -120,7 +120,7 @@ const MySkills = () => {
             <div className="relative h-32">
                 <div className="z-10">
                 {/* <img src="../assets/js.png" alt="javascript logo" /> */}
-                <p>3 years</p>
+                <p>2 years</p>
                 <p className="font-playfair font-semibold text-3xl mt-3">
                     Communication & Collaboration
                 </p>
