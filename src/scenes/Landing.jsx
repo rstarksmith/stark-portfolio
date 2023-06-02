@@ -72,14 +72,14 @@ const Landing = ({setSelectedPage}) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <AnchorLink
-            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
-          >
-            Contact Me
-          </AnchorLink>
+          <a href="./assets/rachel-stark-resume.pdf" download="Rachel Stark - Resume">
+            <button
+              className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+                hover:bg-blue hover:text-white transition duration-500" type="button"
+            >
+              View Resume
+            </button>
+          </a>
           <AnchorLink
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
             // border radius only on the right
