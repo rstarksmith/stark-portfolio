@@ -67,8 +67,8 @@ const MySkills = () => {
             <div className="relative h-32">
                 <div className="z-10">
                     {/* <img src="../assets/react.png" alt="contact" /> */}
-                    <p>2 years</p>
-                    <p className="font-playfair font-semibold text-3xl mt-3">
+                    {/* <p>2 years</p> */}
+                    <p className="font-playfair font-semibold text-3xl mt-3 pt-5">
                         Visual & Graphic Design
                     </p>
                 </div>
@@ -93,8 +93,8 @@ const MySkills = () => {
             <div className="relative h-32">
                 <div className="z-10">
                 {/* <img src="../assets/rails.png" alt="ruby on rails logo" /> */}
-                <p>1 year</p>
-                <p className="font-playfair font-semibold text-3xl mt-3">
+                {/* <p>1 year</p> */}
+                <p className="font-playfair font-semibold text-3xl mt-3 pt-5">
                     Software Development
                 </p>
                 </div>
@@ -120,8 +120,8 @@ const MySkills = () => {
             <div className="relative h-32">
                 <div className="z-10">
                 {/* <img src="../assets/js.png" alt="javascript logo" /> */}
-                <p>2 years</p>
-                <p className="font-playfair font-semibold text-3xl mt-3">
+                {/* <p>2 years</p> */}
+                <p className="font-playfair font-semibold text-3xl mt-3 pt-5">
                     Communication & Collaboration
                 </p>
                 </div>
