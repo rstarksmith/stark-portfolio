@@ -5,12 +5,14 @@ import { motion } from "framer-motion";
 const Contact = () => {
     // from useForm 
   const {
+    reset,
     register,
     trigger,
     formState: { errors },
   } = useForm();
 
   const onSubmit = async (e) => {
+    reset()
     // console.log("~ e", e);
     const isValid = await trigger();
     if (!isValid) {
