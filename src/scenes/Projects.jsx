@@ -84,6 +84,16 @@ const Projects = () => {
                     SLEEK USER INTERFACES
                 </div>
                 <Project 
+                  title="Case Study" 
+                  subtitle={
+                  <>
+                    <a href="https://www.canva.com/design/DAFq-7PAmYw/T533Era52V7q3y0Y4ZrKmA/view?utm_content=DAFq-7PAmYw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener noreferrer" className={linkCss}>Study</a>
+                    <a href="https://www.figma.com/file/0bkn66Hr5Z5wFb2bceZxLF/DDC---Process?type=whiteboard" target="_blank" rel="noopener noreferrer" className={linkCss}>Process</a>
+                    <a href="https://www.figma.com/file/Dbv3PMFFscTJvCUpA9NMvL/DDC---Mockup?type=design&mode=design" target="_blank" rel="noopener noreferrer" className={linkCss}>Mockup</a>
+                  </>
+                }
+                />
+                <Project 
                   title="nosh up" 
                   subtitle={
                   <>
@@ -148,12 +158,12 @@ const Projects = () => {
                     </>
                   }
                 />
-                <div
+                {/* <div
                     className="flex justify-center text-center items-center p-10 bg-blue
                     max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                 >
                     ENGAGING TECHNICAL BLOG POSTS
-                </div>
+                </div> */}
                 </motion.div>
             </div>
         </section>
