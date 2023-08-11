@@ -63,7 +63,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <p className="mt-10 mb-10">
-                    Hi there, I just launched my portfolio this week! Please have a look around, more projects and about me section coming soon...
+                    {/* text */}
                 </p>
             </motion.div>
         {/* PROJECTS */}
@@ -77,12 +77,22 @@ const Projects = () => {
                     viewport={{ once: true, amount: 0.2 }}
                 >
                 {/* ROW 1 */}
-                <div
+                {/* <div
                     className="flex justify-center text-center items-center p-10 bg-red
                     max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                 >
                     SLEEK USER INTERFACES
-                </div>
+                </div> */}
+                 <Project 
+                  title="In Progress" 
+                  subtitle={
+                  <>
+                    <a href="https://28y3d1g1pbd.typeform.com/report/HE6qQfOx/s6otWztA65xTAxGI" target="_blank" rel="noopener noreferrer" className={linkCss}>Survey Results</a>
+                    {/* <a href="https://www.figma.com/file/0bkn66Hr5Z5wFb2bceZxLF/DDC---Process?type=whiteboard" target="_blank" rel="noopener noreferrer" className={linkCss}>Personas</a> */}
+                    {/* <a href="https://www.figma.com/file/Dbv3PMFFscTJvCUpA9NMvL/DDC---Mockup?type=design&mode=design" target="_blank" rel="noopener noreferrer" className={linkCss}>Mockup</a> */}
+                  </>
+                }
+                />
                 <Project 
                   title="Case Study" 
                   subtitle={
