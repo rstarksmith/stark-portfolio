@@ -87,8 +87,9 @@ const Projects = () => {
                   title="In Progress" 
                   subtitle={
                   <>
-                    <a href="https://28y3d1g1pbd.typeform.com/report/HE6qQfOx/s6otWztA65xTAxGI" target="_blank" rel="noopener noreferrer" className={linkCss}>Survey Results</a>
-                    {/* <a href="https://www.figma.com/file/0bkn66Hr5Z5wFb2bceZxLF/DDC---Process?type=whiteboard" target="_blank" rel="noopener noreferrer" className={linkCss}>Personas</a> */}
+                    <a href="https://28y3d1g1pbd.typeform.com/report/HE6qQfOx/s6otWztA65xTAxGI" target="_blank" rel="noopener noreferrer" className={linkCss}>Typeform Survey Results</a>
+                    <a href="https://i.imgur.com/kMucndE.png" target="_blank" rel="noopener noreferrer" className={linkCss}>Persona A</a>
+                    <a href="https://i.imgur.com/nUhuj3T.png" target="_blank" rel="noopener noreferrer" className={linkCss}>Persona B</a>
                     {/* <a href="https://www.figma.com/file/Dbv3PMFFscTJvCUpA9NMvL/DDC---Mockup?type=design&mode=design" target="_blank" rel="noopener noreferrer" className={linkCss}>Mockup</a> */}
                   </>
                 }
