@@ -25,14 +25,14 @@ const SocialMediaIcons = () => {
       >
         <img alt="github-link" src="../assets/github.png" />
       </a>
-      {/* <a
+      <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.instagram.com"
+        href="https://www.instagram.com/rstark.smith/"
         target="_blank"
         rel="noreferrer"
       >
         <img alt="instagram-link" src="../assets/instagram.png" />
-      </a> */}
+      </a>
     </div>
   );
 };
