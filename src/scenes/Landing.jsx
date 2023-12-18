@@ -13,7 +13,7 @@ const Landing = ({setSelectedPage}) => {
             <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-12 md:mt-12">
                 {isAboveMediumScreens ? (
                     <div 
-                    //image line backdrop
+                    // img border
                     // className="relative  before:absolute before:-top-10 before:-right-20 
                     //     before:rounded-t-[400px] before:w-full before:max-w-[400px] before:h-full
                     //     before:border-2 before:border-blue before:z-[-1]"
@@ -77,14 +77,15 @@ const Landing = ({setSelectedPage}) => {
         >
           <a href="./assets/rachel-stark-resume.pdf" download="Rachel Stark - Resume">
             <button
-              className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-                hover:bg-blue hover:text-white transition duration-500" type="button"
+              className="bg-gradient-to-r from-[#5CDADE] to-white
+               text-deep-blue rounded-sm py-3 px-7 font-semibold
+               hover:text-red transition duration-500" type="button"
             >
               View Resume
             </button>
           </a>
           <AnchorLink
-            className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+            className="rounded-r-sm bg-white py-0.5 pr-0.5"
             // border radius only on the right
             onClick={() => setSelectedPage("contact")}
             href="#contact"

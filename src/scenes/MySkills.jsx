@@ -22,7 +22,7 @@ const MySkills = () => {
                 }}
             >  
             <p className="font-playfair font-semibold text-4xl mb-5">
-                MY <span className="text-red">SKILLS</span>
+                MY SKILLS
             </p>
             <LineGradient width="w-1/2" />
             <p className="mt-10 mb-7">
@@ -35,8 +35,9 @@ const MySkills = () => {
                 {/* skills image */}
                 {isAboveMediumScreens ? (
                     <div
-                        className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-                        before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+                    //img border
+                        // className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
+                        // before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
                     >
                         <img
                             alt="skills"
@@ -72,7 +73,7 @@ const MySkills = () => {
                         Visual & Graphic Design
                     </p>
                 </div>
-                <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+                <div className="w-1/2 md:w-3/4 h-32 bg-[#58D0D4] absolute right-0 top-0 z-[-1]" />
             </div>
             <p className="mt-5">Experienced in graphic, web, and logo design with formal training in design fundamentals including color theory, balance, proportionality, and scale. Detail-oriented with a talent for elegant problem-solving. Familiar with prototyping and wireframing tools like Figma.</p>
 

@@ -6,11 +6,11 @@ const Footer = () => {
       <div className="w-10/12 mx-auto">
         <SocialMediaIcons />
         <div className="md:flex justify-center md:justify-between text-center ">
-          <p className="font-playfair font-semibold text-2xl text-yellow">
-            RACHEL STARK
+          <p className="font-semibold text-md text-white">
+            Rachel Stark
           </p>
-          <p className="font-playfair text-md text-yellow">
-            2023 
+          <p className="text-md text-white">
+            2023
           </p>
         </div>
       </div>
