@@ -24,7 +24,7 @@ const MySkills = () => {
             <p className="font-playfair font-semibold text-4xl mb-5">
                 MY SKILLS
             </p>
-            <LineGradient width="w-1/2" />
+            {/* <LineGradient width="w-2/3" /> */}
             <p className="mt-10 mb-7">
                 {/* Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
                 fames odio in at. */}
