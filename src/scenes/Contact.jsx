@@ -35,7 +35,7 @@ const Contact = () => {
         className="flex justify-end w-full"
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
+          <p className="font-playfair tracking-wide font-semibold text-4xl">
             CONTACT ME
           </p>
           <div className="flex md:justify-end my-5">

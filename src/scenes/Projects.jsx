@@ -55,7 +55,7 @@ const Projects = () => {
                 }}
             >
                 <div>
-                    <p className="font-playfair font-semibold text-4xl">
+                    <p className="font-playfair tracking-wide font-semibold text-4xl">
                        PROJECTS
                     </p>
                     <div className="flex justify-center mt-5">

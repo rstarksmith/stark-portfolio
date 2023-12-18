@@ -29,7 +29,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}) => {
                 <h4 className="font-playfair text-3xl font-bold">♡</h4>
 
                 {/* DESKTOP NAV */}
-                {isAboveSmallScreens ? (<div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
+                {isAboveSmallScreens ? (<div className="flex justify-between tracking-wide gap-16 font-opensans text-sm font-semibold">
                         <Link 
                             page="Home"
                             selectedPage={selectedPage}
