@@ -57,7 +57,7 @@ const Landing = ({setSelectedPage}) => {
           </p>
 
           <p className="mt-10 mb-7 tracking-wide text-xl text-center md:text-start">
-            Frontend Engineer | Designer 
+            Designer | Frontend Engineer
           </p>
         </motion.div>
 
