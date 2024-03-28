@@ -110,7 +110,7 @@ const Projects = () => {
                   <>
                     <a href="https://www.loom.com/share/359844ed0e104648abd3df9c4db3e82c" target="_blank" rel="noopener noreferrer" className={linkCss}>Demo</a>
                     <a href="https://github.com/rstarksmith/nosh" target="_blank" rel="noopener noreferrer" className={linkCss}>GitHub</a>
-                    <a href="https://nosh.onrender.com/" target="_blank" rel="noopener noreferrer" className={linkCss}>Live</a>
+                    {/* <a href="https://nosh.onrender.com/" target="_blank" rel="noopener noreferrer" className={linkCss}>Live</a> */}
                   </>
                 }
                 />
